@@ -11,7 +11,7 @@ def is_palindrome(s: str) -> bool:
     """
     # Remove non-alphanumeric characters and convert to lowercase
     cleaned = ''.join(filter(str.isalnum, s)).lower()
-    # Check if cleaned string is equal to its reverse1
+    # Check if cleaned string is equal to its reverse
     return cleaned == cleaned[::-1]
 
 if __name__ == "__main__":
